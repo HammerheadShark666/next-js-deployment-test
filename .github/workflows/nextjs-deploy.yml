@@ -8,7 +8,7 @@ on:
 
 env:
   APPLICATION_PUBLISH_PROFILE: ${{ secrets.APP_PUBLISH_PROFILE }}
-  WEBAPP_NAME: "next-js-deployment-test"
+  WEBAPP_NAME: "prod-ap-next-js-deployment-test"
 
 jobs:
   build:
